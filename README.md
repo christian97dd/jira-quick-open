@@ -1,6 +1,6 @@
 # ⚡ Jira Quick Open
 
-A Chrome extension to instantly open or copy Jira ticket links from any tab — no more navigating through Jira manually.
+Press a shortcut, type a ticket number, hit Enter — and you're there. No more clicking through Jira.
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome&logoColor=white)
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)
@@ -8,8 +8,13 @@ A Chrome extension to instantly open or copy Jira ticket links from any tab — 
 
 ---
 
+> **`Ctrl+Shift+Y`** → type `PROJ-1234` → **`Enter`** to open · **`Ctrl+Enter`** to copy the link
+
+---
+
 ## Features
 
+- **Keyboard-first** — open any ticket or copy its link without touching the mouse
 - **Instant navigation** — type a ticket number (e.g. `PROJ-1234`) and open it directly
 - **Copy link** — copy the ticket URL to clipboard without opening a new tab
 - **Multiple workspaces** — configure and switch between different Jira instances
