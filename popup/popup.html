@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jira Quick Open</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <span class="logo">⚡</span>
+        <span class="title">Jira Quick Open</span>
+        <a href="#" id="options-link" title="Settings">⚙</a>
+      </div>
+
+      <div id="no-workspaces" class="empty-state hidden">
+        <p id="no-workspaces-msg"></p>
+        <a href="#" id="go-to-options"></a>
+      </div>
+
+      <div id="main" class="hidden">
+        <select id="workspace-select"></select>
+
+        <div class="input-row">
+          <input
+            id="ticket-input"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </div>
+
+        <div class="actions">
+          <button id="btn-open" class="btn primary"></button>
+          <button id="btn-copy" class="btn secondary"></button>
+        </div>
+
+        <div id="copy-feedback" class="feedback hidden"></div>
+
+        <div id="history-section" class="hidden">
+          <div class="history-header" id="history-header"></div>
+          <ul id="history-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

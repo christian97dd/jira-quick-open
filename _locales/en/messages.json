@@ -1,0 +1,57 @@
+{
+  "appName": { "message": "Jira Quick Open" },
+  "appDescription": {
+    "message": "Open or copy Jira ticket links instantly from any tab."
+  },
+  "noWorkspacesMsg": { "message": "No workspaces configured." },
+  "noWorkspacesLink": { "message": "Set up your first workspace →" },
+  "ticketPlaceholder": { "message": "PROJ-1234" },
+  "openBtn": { "message": "Open" },
+  "copyBtn": { "message": "Copy link" },
+  "recentHeader": { "message": "Recent" },
+  "linkCopied": { "message": "Link copied!" },
+
+  "settingsTitle": { "message": "Jira Quick Open — Settings" },
+  "workspacesSection": { "message": "Workspaces" },
+  "workspacesHint": {
+    "message": "Add the Jira workspaces you want to navigate. The slug is the subdomain of your Atlassian URL (e.g., mycompany for mycompany.atlassian.net)."
+  },
+  "addWorkspaceTitle": { "message": "Add workspace" },
+  "editWorkspaceTitle": { "message": "Edit workspace" },
+  "nameLabel": { "message": "Name" },
+  "slugLabel": { "message": "Slug" },
+  "prefixesLabel": { "message": "Prefixes" },
+  "prefixesHint": { "message": "comma-separated, e.g. PROJ, TASK" },
+  "namePlaceholder": { "message": "My Company" },
+  "slugPlaceholder": { "message": "mycompany" },
+  "prefixesPlaceholder": { "message": "PROJ, TASK" },
+  "addBtn": { "message": "Add workspace" },
+  "saveBtn": { "message": "Save" },
+  "cancelBtn": { "message": "Cancel" },
+  "editBtn": { "message": "Edit" },
+  "removeBtn": { "message": "Remove" },
+  "settingsTab": { "message": "Settings" },
+  "languageTitle": { "message": "Language" },
+  "langAuto": { "message": "Auto-detect" },
+  "behaviorSection": { "message": "Behavior" },
+  "shortcutsTitle": { "message": "Keyboard shortcuts" },
+  "shortcutsHint": {
+    "message": "Chrome doesn't allow extensions to change shortcuts directly. Use the button below to open Chrome's shortcut manager."
+  },
+  "shortcutNotSet": { "message": "Not set" },
+  "manageShortcuts": { "message": "Manage shortcuts ↗" },
+  "shortcutOpenPopup": { "message": "Open popup" },
+  "shortcutCopyLink": { "message": "Copy ticket link (inside popup)" },
+  "shortcutInPopup": { "message": "in-popup" },
+  "openNewTabLabel": { "message": "Open tickets in a new tab" },
+  "savedMsg": { "message": "Saved!" },
+  "noWorkspacesYet": { "message": "No workspaces yet." },
+  "errorNameRequired": { "message": "Name is required." },
+  "errorSlugRequired": { "message": "Slug is required." },
+  "errorSlugInvalid": {
+    "message": "Slug must only contain lowercase letters, numbers, and hyphens."
+  },
+  "errorSlugDuplicate": {
+    "message": "A workspace with this slug already exists."
+  }
+}

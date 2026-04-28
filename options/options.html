@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jira Quick Open</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>⚡ Jira Quick Open</h1>
+
+      <div class="tabs">
+        <button
+          class="tab active"
+          data-tab="workspaces"
+          id="tab-btn-workspaces"
+        ></button>
+        <button class="tab" data-tab="settings" id="tab-btn-settings"></button>
+      </div>
+
+      <!-- Workspaces tab -->
+      <div id="tab-workspaces" class="tab-content">
+        <p class="hint" id="lbl-workspaces-hint"></p>
+        <div id="workspaces-list"></div>
+        <div class="add-form card">
+          <h3 id="lbl-add-title"></h3>
+          <div class="form-row">
+            <label id="lbl-name"></label>
+            <input id="new-name" type="text" />
+          </div>
+          <div class="form-row">
+            <label id="lbl-slug"></label>
+            <input id="new-slug" type="text" />
+          </div>
+          <div class="form-row">
+            <label>
+              <span id="lbl-prefixes"></span>
+              <span class="hint-inline" id="lbl-prefixes-hint"></span>
+            </label>
+            <input id="new-prefixes" type="text" />
+          </div>
+          <button id="btn-add" class="btn primary"></button>
+          <div id="add-error" class="error hidden"></div>
+        </div>
+      </div>
+
+      <!-- Settings tab -->
+      <div id="tab-settings" class="tab-content hidden">
+        <div class="settings-group">
+          <h3 id="lbl-language-title"></h3>
+          <select id="language-select">
+            <option value="auto" id="opt-auto"></option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="pt_BR">Português</option>
+          </select>
+        </div>
+        <div class="settings-group">
+          <h3 id="lbl-behavior-title"></h3>
+          <label class="toggle-row">
+            <input type="checkbox" id="open-new-tab" checked />
+            <span id="lbl-open-new-tab"></span>
+          </label>
+        </div>
+        <div class="settings-group">
+          <h3 id="lbl-shortcuts-title"></h3>
+          <p class="hint" id="lbl-shortcuts-hint"></p>
+          <div id="shortcuts-list"></div>
+          <button
+            class="btn ghost btn-shortcuts"
+            id="btn-manage-shortcuts"
+          ></button>
+        </div>
+      </div>
+
+      <div id="save-feedback" class="feedback hidden"></div>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

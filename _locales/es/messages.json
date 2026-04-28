@@ -1,0 +1,57 @@
+{
+  "appName": { "message": "Jira Quick Open" },
+  "appDescription": {
+    "message": "Abrí o copiá links de tickets de Jira al instante desde cualquier pestaña."
+  },
+  "noWorkspacesMsg": { "message": "No hay workspaces configurados." },
+  "noWorkspacesLink": { "message": "Configurá tu primer workspace →" },
+  "ticketPlaceholder": { "message": "PROJ-1234" },
+  "openBtn": { "message": "Abrir" },
+  "copyBtn": { "message": "Copiar link" },
+  "recentHeader": { "message": "Recientes" },
+  "linkCopied": { "message": "¡Link copiado!" },
+  "settingsTitle": { "message": "Jira Quick Open — Configuración" },
+  "workspacesSection": { "message": "Workspaces" },
+  "workspacesHint": {
+    "message": "Agregá los workspaces de Jira que querés navegar. El slug es el subdominio de tu URL de Atlassian (ej: miempresa para miempresa.atlassian.net)."
+  },
+  "addWorkspaceTitle": { "message": "Agregar workspace" },
+  "editWorkspaceTitle": { "message": "Editar workspace" },
+  "nameLabel": { "message": "Nombre" },
+  "slugLabel": { "message": "Slug" },
+  "prefixesLabel": { "message": "Prefijos" },
+  "prefixesHint": { "message": "separados por coma, ej: PROJ, TAREA" },
+  "namePlaceholder": { "message": "Mi Empresa" },
+  "slugPlaceholder": { "message": "miempresa" },
+  "prefixesPlaceholder": { "message": "PROJ, TAREA" },
+  "addBtn": { "message": "Agregar workspace" },
+  "saveBtn": { "message": "Guardar" },
+  "cancelBtn": { "message": "Cancelar" },
+  "editBtn": { "message": "Editar" },
+  "removeBtn": { "message": "Eliminar" },
+  "settingsTab": { "message": "Configuración" },
+  "languageTitle": { "message": "Idioma" },
+  "langAuto": { "message": "Detección automática" },
+  "behaviorSection": { "message": "Comportamiento" },
+  "shortcutsTitle": { "message": "Atajos de teclado" },
+  "shortcutsHint": {
+    "message": "Chrome no permite que las extensiones cambien sus atajos directamente. Usá el botón de abajo para abrir el gestor de atajos de Chrome."
+  },
+  "shortcutNotSet": { "message": "Sin asignar" },
+  "manageShortcuts": { "message": "Gestionar atajos ↗" },
+  "shortcutOpenPopup": { "message": "Abrir popup" },
+  "shortcutCopyLink": {
+    "message": "Copiar link del ticket (dentro del popup)"
+  },
+  "shortcutInPopup": { "message": "interno" },
+  "openNewTabLabel": { "message": "Abrir tickets en una nueva pestaña" },
+  "savedMsg": { "message": "¡Guardado!" },
+  "noWorkspacesYet": { "message": "Todavía no hay workspaces." },
+
+  "errorNameRequired": { "message": "El nombre es obligatorio." },
+  "errorSlugRequired": { "message": "El slug es obligatorio." },
+  "errorSlugInvalid": {
+    "message": "El slug solo puede contener letras minúsculas, números y guiones."
+  },
+  "errorSlugDuplicate": { "message": "Ya existe un workspace con ese slug." }
+}
